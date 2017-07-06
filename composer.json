@@ -23,6 +23,7 @@
             "url": "https://github.com/t-fujisawa702/phinx"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.9",
         "t-fujisawa702/phinx": "dev-master",
