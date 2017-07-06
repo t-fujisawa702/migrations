@@ -26,7 +26,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.9",
-        "t-fujisawa702/phinx": "dev-master",
+        "t-fujisawa702/phinx": "dev-postgresql-custom-6.6",
         "cakephp/orm": "~3.2",
         "cakephp/cache": "~3.2"
     },
