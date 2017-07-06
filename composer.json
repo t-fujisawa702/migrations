@@ -1,5 +1,5 @@
 {
-    "name": "cakephp/migrations",
+    "name": "t-fujisawa702/migrations",
     "description": "Database Migration plugin for CakePHP 3.0 based on Phinx",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "migrations"],
@@ -17,9 +17,15 @@
         "irc": "irc://irc.freenode.org/cakephp",
         "source": "https://github.com/cakephp/migrations"
     },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/t-fujisawa702/phinx"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
-        "robmorgan/phinx": "0.6.6",
+        "t-fujisawa702/phinx": "dev-postgresql-custom",
         "cakephp/orm": "~3.2",
         "cakephp/cache": "~3.2"
     },
